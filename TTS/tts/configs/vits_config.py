@@ -127,11 +127,11 @@ class VitsConfig(BaseTTSConfig):
     # testing
     test_sentences: List[List] = field(
         default_factory=lambda: [
-            ["It took me quite a long time to develop a voice, and now that I have it I'm not going to be silent."],
-            ["Be a voice, not an echo."],
-            ["I'm sorry Dave. I'm afraid I can't do that."],
-            ["This cake is great. It's so delicious and moist."],
-            ["Prior to November 22, 1963."],
+            ["Deixá las falar respondeu ela."],
+            ["De modo que a situação continuou na mesma durante mais 6 meses, até ao trágico domingo em que José Arcadio Buendía ganhou uma luta de galos a Prudencio Aguilar."],
+            ["Olá Luis, hoje estão 17 graus."],
+            ["Tenho dez anos e nove meses."],
+            ["Hoje é dia 3 de Março de 2022"]
         ]
     )
 
